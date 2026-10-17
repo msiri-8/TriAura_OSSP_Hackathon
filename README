@@ -1,0 +1,58 @@
+# Smart Page Replacement Algorithm
+
+## Overview
+A simulation-based Operating Systems project that implements and compares FIFO, LRU, and a proposed Smart Page Replacement Algorithm. The Smart algorithm considers page access recency and frequency to select a page for replacement.
+
+## Features
+- FIFO and LRU page replacement.
+- Smart page replacement using recency and frequency.
+- Page fault and page hit counting.
+- Page fault rate and hit rate calculation.
+- Performance comparison between algorithms.
+
+## Technologies Used
+- Ubuntu Linux
+- C / Python / Java (depending on the implementation)
+- Operating Systems concepts
+- GCC / Python 3 / JDK (depending on the programming language)
+
+## Execution in Ubuntu
+
+### 1. Open the terminal
+Navigate to the project directory:
+
+```bash
+cd /path/to/Smart-Page-Replacement
+```
+
+Replace the example path with your actual project folder path.
+
+### 2. Compile and run
+
+**For C:**
+```bash
+gcc main.c -o main
+./main
+```
+
+**For Python:**
+```bash
+python3 main.py
+```
+
+**For Java:**
+```bash
+javac Main.java
+java Main
+```
+
+Use only the commands that match your implementation.
+
+## Output
+The program displays the page replacement simulation and compares FIFO, LRU, and Smart using page faults, page hits, and hit and fault rates.
+
+## Platform
+Developed and executed on Ubuntu Linux.
+
+## Author
+**Project:** Smart Page Replacement Algorithm
