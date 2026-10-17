@@ -12,7 +12,7 @@ A simulation-based Operating Systems project that implements and compares FIFO, 
 
 ## Technologies Used
 - Ubuntu Linux
-- C / Python / Java (depending on the implementation)
+- C / HTML / CSS / JAVASCRIPT
 - Operating Systems concepts
 - GCC / Python 3 / JDK (depending on the programming language)
 
@@ -33,20 +33,6 @@ Replace the example path with your actual project folder path.
 ```bash
 gcc main.c -o main
 ./main
-```
-
-**For Python:**
-```bash
-python3 main.py
-```
-
-**For Java:**
-```bash
-javac Main.java
-java Main
-```
-
-Use only the commands that match your implementation.
 
 ## Output
 The program displays the page replacement simulation and compares FIFO, LRU, and Smart using page faults, page hits, and hit and fault rates.
